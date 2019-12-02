@@ -1,0 +1,8 @@
+//create user
+http://localhost:3000/users
+{
+	"name": "Test Test",
+	"email": "admin@prueba.cl",
+	"password": "admin"
+}
+

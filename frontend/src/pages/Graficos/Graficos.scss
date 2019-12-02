@@ -1,0 +1,66 @@
+@import "../../styles/app";
+button.btn.p-1.px-3.btn-xs.btn-secondary {
+  background: green;
+  color: white;
+  border: #003500;
+}
+button.btn.p-1.px-3.btn-xs.btn-yellow.btn-secondary {
+  background: #bbc51a;
+}
+.filter-title{
+  font-weight: bold;
+  font-size: 14px;
+}
+.loadingcharge {
+  padding-top: 50px;
+  text-align: center;
+}
+.loadingcharge img.img-rounded {
+  height: 320px;
+}
+span.glyphicon.glyphicon-trash {
+  font-size: 10px;
+  padding: 0px 0px 3px 5px;
+  color: #ef6464;
+}
+.filter-name {
+  padding: 0px 0px 0px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.dinline{
+  display: inline-block !important;
+}
+.float-right {
+  margin-bottom: 15px;
+}
+input#search-input {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 0px;
+}
+table {
+  td > * {
+    vertical-align: middle;
+  }
+  td {
+    padding: 0.75rem;
+    vertical-align: middle !important;
+    text-align: center;
+    border-top: 1px solid #d6dee5;
+  }
+  td,
+  th {
+    font-weight: $font-weight-normal;
+    text-align: center;
+  }
+
+  tbody tr {
+    &:nth-child(odd) {
+      background: $gray-100;
+    }
+
+    td {
+      min-width: 100px;
+    }
+  }
+}
